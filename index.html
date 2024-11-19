@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Document</title>
+</head>
+
+
+
+
+<body>
+	<script>
+		let nombre="juan ";
+		let apellido= "sin miedo ";
+		let saludos= "hola "+ nombre+""+ apellido+"!";
+
+		document.write(saludos, "<br>"); 
+
+		let x=7;
+		let y=10;
+
+		document.write("x es igual a y ", x==y, "<br>"); 
+		document.write("x es diferente a y ", x!=y, "<br>"); 
+		document.write("x es mayor a y ", x>y, "<br>"); 
+		document.write("x es menor igual a y ", x<=y, "<br>");
+
+		let esAdulto=true;
+		let tieneDinero=false;
+		let PuedeEntrar=esAdulto && tieneDinero;
+		let PuedeSalir= esAdulto || tieneDinero;
+
+		document.write("puede entrar a la discoteca, ", PuedeEntrar, "<br>");
+		document.write("puedo salir ",PuedeSalir);
+
+		let b=5;
+		let a=10; 
+		let suma= b+a;
+		let resta= a-b;
+		let multiplicacion= a*b;
+		let division= a/b;
+
+		document.write("la suma es ", suma, "<br>");
+		document.write("la resta es ", resta, "<br>");
+		document.write("la multiplicacion es ", multiplicacion, "<br>");
+		document.write("la division es ", division, "<br>");
+
+		let nombres= "Juan Carlos ";
+		let edad= prompt("Por favor ingrese su edad");
+		let EsEstudiante= true; 
+
+		let respuesta= edad > 17 && EsEstudiante;
+
+		document.write("recibe el bono ", respuesta);
+
+
+
+
+
+
+
+
+
+	</script>
+
+</body>
+</html>
